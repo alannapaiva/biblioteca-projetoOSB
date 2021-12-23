@@ -6,7 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import "./style.css";
 
 interface Books {
-	objectID: string,
+	ID: string,
 	author: string,
 	title: string,
 	url: string
@@ -15,8 +15,8 @@ interface Books {
 export function Livros() {
 
 	const [books, setBooks] = useState<Books[]>([]);
-  const [input, setInput] = useState('');
-  const[showMessage, setShowMessage] = useState(false);
+    const [input, setInput] = useState('');
+    const[showMessage, setShowMessage] = useState(false);
 
 
     const handleSearch = () => {
@@ -60,7 +60,7 @@ export function Livros() {
 		</header>	
 
 		<ul>{books.map((book) => {
-			return <Lista key={book.objectID} book={book}/>
+			return <Lista key={book.ID} book={book}/>
 		})}
 		</ul>
 

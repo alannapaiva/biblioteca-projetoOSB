@@ -3,7 +3,7 @@ import "../Lista/style.css";
 
 interface BooksProps {
   book : {
-      objectID: string,
+      ID: string,
       author: string,
       title: string,
       url: string
