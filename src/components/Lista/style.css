@@ -1,16 +1,16 @@
 li {
     display: block;
-    background-color: skyblue;
-    margin: 1rem;
+    background-color: #749bbb;
+    margin: 0 auto;
     border-radius: 0.5rem;
     padding: 1rem;
+    margin-bottom: 7px;
     width: 30rem;
-    text-align: start;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    text-align: start;
     color: #000;
-    
+   
 }
 label {
     display: flex;
